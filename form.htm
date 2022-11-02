@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-align:center ;">Sign Up Form</h1>
+    <hr>
+    <form action="#" method="post">
+        <label for="user">Name:</label>
+        <input type="text" id="user" placeholder="John Wick" name="user"><br> <br> 
+        <label for="mail">E-mail:</label>
+        <input type="email" id="mail" placeholder="example@email.com" name="user" required> <br> <br>
+        <label for="Pass">Pasword:</label>
+        <input type="password" id="Pass" name="pass" required placeholder="***********"> <br> <br>
+        <label for="phn">Phone:</label>
+        <select name="code" id="">
+            <option value="+880">+880</option>
+            <option value="+990">+990</option>
+            <option value="+770">+770</option>
+        </select>
+        <input type="number" id="phn" name="phn" placeholder="12345678"><br> <br>
+        <label for="country">Country:</label>
+        <input list="cnt">
+        <datalist id="cnt">
+            <option value="Bangladesh"></option>
+            <option value="Nepal"></option>
+            <option value="Russia"></option>
+            <option value="Bhutan"></option>
+        </datalist>
+        <br> <br>
+        Gender:
+        <input type="radio" id="gnd1" name="gender">
+        <label for="gnd1">Male</label>
+        
+        <input type="radio" id="gnd2" name="gender">
+        <label for="gnd2">Female</label>
+        
+        <input type="radio" id="gnd3" name="gender">
+        <label for="gnd3">Other</label>
+        <br> <br>
+        <label for="date">Date Of Birth:</label>
+        <input type="date" id="date">
+        <br> <br>
+        <label for="time">Time:</label>
+        <input type="time" id="time">
+        <br> <br>
+        <label for="clr">Color:</label>
+        <input type="color" id="clr">
+        <br> <br>
+        <label for="pic">Your Pic:</label>
+        <input type="file" id="pic"><br> <br>
+        Make sure you are agree with our terms and condition <br>
+        <input type="checkbox" name="agree"  id="agreement"> 
+        <label for="agreement">Agree</label>
+        <input type="checkbox" name="agree" id="disagreement">
+        <label for="disagreement">Disagree</label>
+        <br><br> 
+        <p>Please put opinion:</p>
+        <textarea name="comment" id="" cols="30" rows="10" placeholder="Write comment........"></textarea>
+        <br><br>
+        <input type="submit" value="Send">
+        <input type="reset"> 
+
+
+    </form>
+</body>
+</html>
